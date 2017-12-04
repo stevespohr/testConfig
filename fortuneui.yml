@@ -1,6 +1,5 @@
 fortuneService:
   scheme: http
-  address: localhost:5000
+  address: fortuneservice-unconservable-fere.apps.selma.cf-app.com
   randomFortunePath: api/fortunes/random
   allFortunesPath: api/fortunes/all
-
