@@ -1,8 +1,12 @@
-Logging: 
+Logging:
   IncludeScopes: false
   Debug:
-    LogLevel: 
+    LogLevel:
       Default: Information
   Console:
-    LogLevel: 
+    LogLevel:
       Default: Information
+eureka:
+  client:
+    serviceUrl: myDiscoveryService
+    validate_certificates: false
